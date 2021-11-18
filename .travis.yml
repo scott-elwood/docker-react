@@ -9,4 +9,4 @@ before_install:
   - docker build -t hsedecanter/docker-react -f Dockerfile.dev .
 
   script:
-   - docker run -e CI=true hsedecanter/docker-react npm run test
+  - docker run -e CI=true hsedecanter/docker-react npm run test
